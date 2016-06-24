@@ -131,6 +131,7 @@ myEvents.on('updateInfo', function (fans, face, owner_uid, nickname, tag, room_i
         if (err) {
             return console.log(err + "---sql---");
         }
+        console.log(start);
     })
 });
 
