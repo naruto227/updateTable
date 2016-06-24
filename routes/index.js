@@ -80,7 +80,7 @@ myEvents.on('longzhu', function () {
 
 function selectAndSend() {
     var limit_range = start * 10 + ',' + 10;
-    var sql = 'SELECT * FROM laifeng where owner_uid = 0 ORDER BY id desc limit ' + limit_range + ';';
+    var sql = 'SELECT * FROM laifeng where owner_uid = 0 ORDER BY id limit ' + limit_range + ';';
     conn.query(sql, function (err, rows) {
         if (err) {
             return console.log(err);
