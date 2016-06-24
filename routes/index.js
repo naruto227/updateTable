@@ -4,8 +4,8 @@ var mysql = require('mysql');
 var schedule = require('node-schedule');
 var rule = new schedule.RecurrenceRule();
 var conn = mysql.createConnection({
-    host: 'http://121.42.176.30',
-    // host: 'localhost',
+    // host: '121.42.176.30',
+    host: 'localhost',
     user: 'root',
     // password: 'root',
     password: 'xidian@513',
