@@ -90,6 +90,7 @@ function selectAndSend() {
             for (var i = 0; i < rows.length; i++) {
                 myEvents.emit('updateOther', rows[i].room_id);
             }
+            console.log(start);
         } else {
             isFinish = true;
             return;
@@ -131,7 +132,6 @@ myEvents.on('updateInfo', function (fans, face, owner_uid, nickname, tag, room_i
         if (err) {
             return console.log(err + "---sql---");
         }
-        console.log(start);
     })
 });
 
