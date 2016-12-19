@@ -49,10 +49,10 @@ function sub() {
     } else {
         return;
     }
-    myEvents.emit('longzhu');
+    myEvents.emit('sixrooms');
 }
 
-myEvents.on('longzhu', function () {
+myEvents.on('sixrooms', function () {
     var times = [];
     for (var i = 0; i < 60; i = i + 10) {
         times.push(i);
