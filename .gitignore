@@ -116,5 +116,4 @@ fabric.properties
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 /.gitignore
-/.idea/vcs.xml
-!/.idea/workspace.xml
+/.idea/
